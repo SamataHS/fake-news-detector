@@ -251,4 +251,4 @@ MIT License — Feel free to use in your projects!
 
 ---
 
-*Built with ❤️ using scikit-learn, Flask, and ☕*
+
