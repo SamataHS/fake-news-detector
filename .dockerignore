@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+
+Fake.csv
+True.csv
+.git
+.env
+venv/

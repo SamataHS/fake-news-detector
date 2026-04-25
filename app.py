@@ -17,7 +17,7 @@ def load_or_train():
         detector = FakeNewsDetector.load("model.pkl")
         print("✅ Loaded pre-trained model.")
     else:
-        print("🔧 No model found — training now...")
+        raise Exception("❌ model.pkl not found! Cannot start app.")
         df = load_dataset(fake_path="fake.csv", true_path="true.csv")
         detector = FakeNewsDetector()
         detector.train(df)
@@ -198,4 +198,4 @@ async function analyze() {
 if __name__ == "__main__":
     load_or_train()
     print("\n🚀 Starting Flask server at http://127.0.0.1:5000")
-    app.run(debug=True)
+    app.run(debug=True, host="0.0.0.0", port=5000)
