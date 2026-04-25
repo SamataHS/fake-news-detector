@@ -5,6 +5,8 @@ A machine learning system that classifies news articles as **Real**, **Fake**, o
 **Tech Stack:** Python · Pandas · Scikit-learn · NLP · TF-IDF · Flask
 
 ---
+## 🌐 Live Demo
+🚀 Try the app here: https://fake-news-nevp.onrender.com/
 
 ## ✨ Key Features
 
